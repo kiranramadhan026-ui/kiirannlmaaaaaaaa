@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Nama Kamu | Web Pribadi</title>
+  <meta name="description" content="Website pribadi bertema Spider-Man.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Barlow:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="logo" href="#top">Nama Kamu</a>
+    <nav aria-label="Navigasi utama">
+      <a href="#tentang">Tentang</a>
+      <a href="#skill">Skill</a>
+      <a href="#proyek">Proyek</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <svg class="web" id="web" aria-hidden="true"></svg>
+      <div class="hero-inner">
+        <p class="hero-hi">Halo, saya</p>
+        <h1 id="nama">Nama Kamu</h1>
+        <p class="hero-role">Saya seorang <span id="role" aria-live="polite"></span><span class="cursor" aria-hidden="true">|</span></p>
+        <div class="hero-actions">
+          <a class="btn btn-red" href="#proyek">Lihat proyek</a>
+          <button class="btn btn-blue" id="sense" type="button">Spider-Sense</button>
+        </div>
+      </div>
+      <div class="boom" id="boom" aria-hidden="true">TING!</div>
+    </section>
+
+    <section class="section" id="tentang">
+      <h2>Tentang saya</h2>
+      <div class="panel about">
+        <p>Ganti teks ini dengan perkenalan singkat tentang dirimu: siapa kamu, tinggal di mana, dan apa yang kamu kerjakan atau pelajari saat ini.</p>
+        <p>Tambahkan satu atau dua kalimat tentang hal yang kamu sukai di luar pekerjaan atau sekolah, supaya pengunjung mengenal kamu lebih dekat.</p>
+        <dl class="facts">
+          <div><dt>Kota</dt><dd>Surakarta</dd></div>
+          <div><dt>Pekerjaan / studi</dt><dd>Isi di sini</dd></div>
+          <div><dt>Hobi</dt><dd>Isi di sini</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="section" id="skill">
+      <h2>Kemampuan</h2>
+      <div class="panel skills">
+        <div class="skill" data-level="85"><span>HTML</span><div class="bar"><i></i></div><b>85%</b></div>
+        <div class="skill" data-level="75"><span>CSS</span><div class="bar"><i></i></div><b>75%</b></div>
+        <div class="skill" data-level="65"><span>JavaScript</span><div class="bar"><i></i></div><b>65%</b></div>
+        <div class="skill" data-level="50"><span>Desain</span><div class="bar"><i></i></div><b>50%</b></div>
+      </div>
+    </section>
+
+    <section class="section" id="proyek">
+      <h2>Proyek</h2>
+      <div class="projects">
+        <article class="panel big">
+          <h3>Proyek utama</h3>
+          <p>Jelaskan proyek terbaikmu: apa tujuannya, teknologi yang dipakai, dan hasil yang kamu capai.</p>
+          <a href="#" class="link">Buka proyek</a>
+        </article>
+        <article class="panel">
+          <h3>Proyek kedua</h3>
+          <p>Deskripsi singkat proyek.</p>
+          <a href="#" class="link">Buka proyek</a>
+        </article>
+        <article class="panel">
+          <h3>Proyek ketiga</h3>
+          <p>Deskripsi singkat proyek.</p>
+          <a href="#" class="link">Buka proyek</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="kontak">
+      <h2>Hubungi saya</h2>
+      <div class="panel contact">
+        <p>Ingin berkolaborasi atau sekadar menyapa? Kirim pesan lewat salah satu tautan ini.</p>
+        <ul>
+          <li><a href="mailto:email@contoh.com">email@contoh.com</a></li>
+          <li><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a></li>
+          <li><a href="https://github.com/" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Dibuat dengan HTML, CSS, dan JavaScript. Kekuatan besar datang dengan tanggung jawab besar.</p>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
